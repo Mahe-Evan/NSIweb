@@ -1,0 +1,23 @@
+<htlm>
+<head><title>Questionnaire</title></head>
+<body>
+<div id="res">
+<form action="index.php" name="my form" methode="POST">
+Prénom:<input type="text" name="prénom"><br>
+nom:<input type="text" name="nom"><br>
+Tu est:<br>
+<input type="radio" name="sexe" value="homme">homme<br>
+<input type="radio" name="sexe" value="femme">femme<br>
+Tu aime:<br>
+<input type="checkbox" name="pomme" value="pomme">pomme<br>
+<input type="checkbox" name="poire" value="poire">poire<br>
+<input type="checkbox" name="fraise" value="fraise">fraise<br>
+Quelle est ton prénom préféré?<br>
+<select name="préféré"> 
+<option value="Paul" selected="selected">Paul</option>
+<option value="Pierre">Pierre</option>
+<input type="submit" value="Envoyer ce questionnaire"/> 
+</form>
+</div> 
+</body>
+</htlm>
