@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head><title>Questionnaire</title></head>
+<body>   
+<form action="index.php" name="my form" methode="POST">
+Prénom:<div id="repprénom"><input type="text" name="prénom"></div>
+Nom:<div id="repnom"><input type="text" name="nom"></div><br>
+Tu es:<br>
+<div id="rephomme"><input type="radio" name="sexe" value="homme">homme</div>
+<div id="repfemme"><input type="radio" name="sexe" value="femme">femme</div><br>
+Tu aimes:<br>
+<div id="reppomme"><input type="checkbox" name="pomme" value="pomme">pomme</div>
+<div id="reppoire"><input type="checkbox" name="poire" value="poire">poire</div>
+<div id="repfraise"><input type="checkbox" name="fraise" value="fraise">fraise</div><br>
+Quelle est ton prénom préféré?<br>
+<select name="préféré"> 
+<option value="Paul" selected="selected">Paul</option>
+<option value="Pierre">Pierre</option>
+</select><br>
+<button id="button" type="button">
+envoyer le formulaire
+</button> 
+</form>
+<div id="res"> 
+</div> 
+<script>
+//addeventlistener("clic","fonction");  
+var elt = document.querySelector('select');
+console.log(elt);
+console.log(elt.options);
+var submit = document.getElementById("button");
+add.Listener 
+console.log(39);
+</script>  
+</body>
+</html>
